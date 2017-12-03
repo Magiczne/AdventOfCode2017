@@ -1,7 +1,13 @@
 # Advent of Code 2017 solutions
 
-| Day | Challenge name | Language |
+| Day | Challenge name | Language & Helpers |
 | --- | -------------- | -------- |
-| 01 | [Inverse Captcha](http://adventofcode.com/2017/day/1) | Python |
-| 02 | [Corruption Checksum](http://adventofcode.com/2017/day/2) | Python |
-| 03 | [Spiral Memory](http://adventofcode.com/2017/day/3) | Python + Google ;-) |
+| 01 | [Inverse Captcha][d01] | Python |
+| 02 | [Corruption Checksum][d02] | Python |
+| 03 | [Spiral Memory][d03] | Python & [oeis.org][oeis] :wink: |
+
+[d01]: http://adventofcode.com/2017/day/1
+[d02]: http://adventofcode.com/2017/day/2
+[d03]: http://adventofcode.com/2017/day/3
+
+[oeis]: https://oeis.org
