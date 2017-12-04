@@ -2,7 +2,7 @@ from math import ceil, sqrt
 
 
 def main():
-    inp = 25
+    inp = 265149
     print(part1(inp))
     print(part2())
 

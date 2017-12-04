@@ -1,9 +1,8 @@
 def main():
-    with open('input.txt') as f:
-        data = list(f.read())
+    data = list(open('input.txt').read())
 
-    calc(data, 1)
-    calc(data, int(len(data) / 2))
+    print(calc(data, 1))
+    print(calc(data, len(data) // 2))
 
 
 def calc(data, distance):
@@ -13,7 +12,7 @@ def calc(data, distance):
         if data[i] == data[(i + distance) % len(data)]:
             data_sum += int(data[i])
 
-    print(data_sum)
+    return data_sum
 
 
 if __name__ == '__main__':

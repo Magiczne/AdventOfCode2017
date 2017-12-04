@@ -2,23 +2,14 @@ import itertools
 
 
 def main():
-    with open('input.txt') as f:
-        data = []
+    data = [[int(item) for item in line.strip('\n').split('\t')] for line in open('input.txt').readlines()]
 
-        for line in f.readlines():
-            data.append([int(item) for item in line.strip('\n').split('\t')])
-
-    part1(data)
-    part2(data)
+    print(part1(data))
+    print(part2(data))
 
 
 def part1(data):
-    checksum = 0
-    for line in data:
-        diff = max(line) - min(line)
-        checksum += diff
-
-    print(checksum)
+    return sum([max(line) - min(line) for line in data])
 
 
 def part2(data):
@@ -32,7 +23,7 @@ def part2(data):
                 s += tmp[1] / tmp[0]
                 continue
 
-    print(s)
+    return s
 
 
 if __name__ == '__main__':
