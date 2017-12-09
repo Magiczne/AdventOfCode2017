@@ -8,6 +8,7 @@
 | 04 | [High-Entropy Passphrases][d04] | Python |
 | 05 | [A Maze of Twisty Trampolines, All Alike][d05] | Python |
 | 06 | [Memory Reallocation][d06] | Python |
+| 07 | [Recursive Circus][d07] | Python |
 
 [d01]: http://adventofcode.com/2017/day/1
 [d02]: http://adventofcode.com/2017/day/2
@@ -15,5 +16,6 @@
 [d04]: http://adventofcode.com/2017/day/4
 [d05]: http://adventofcode.com/2017/day/5
 [d06]: http://adventofcode.com/2017/day/6
+[d07]: http://adventofcode.com/2017/day/7
 
 [oeis]: https://oeis.org
