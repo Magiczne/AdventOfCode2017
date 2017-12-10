@@ -11,6 +11,7 @@
 | 07 | [Recursive Circus][d07] | Python |
 | 08 | [I Heard You Like Registers][d08] | Python |
 | 09 | [Stream Processing][d09] | Python |
+| 10 | [Knot Hash][d10] | Python |
 
 [d01]: http://adventofcode.com/2017/day/1
 [d02]: http://adventofcode.com/2017/day/2
@@ -21,5 +22,6 @@
 [d07]: http://adventofcode.com/2017/day/7
 [d08]: http://adventofcode.com/2017/day/8
 [d09]: http://adventofcode.com/2017/day/9
+[d10]: http://adventofcode.com/2017/day/10
 
 [oeis]: https://oeis.org
