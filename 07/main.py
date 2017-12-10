@@ -13,10 +13,20 @@ def main():
         graph.append(Node(node['name'], node['weight'], node['children']))
 
     print(part1(graph))
+    print(part2(graph))
 
 
 def part1(graph):
-    return list(filter(lambda node: graph.get_parent_node(node.name) is None and len(node.children) > 0, graph.nodes))
+    return graph.get_root_node()
+
+
+def part2(graph):
+    graph.calculate_weights()
+    unbalanced = graph.find_unbalanced()
+
+    weights = [graph.get_by_name(child).overall_weight for child in unbalanced.children]
+
+    return weights
 
 
 def parse_entry(entry):
