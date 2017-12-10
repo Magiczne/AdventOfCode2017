@@ -10,6 +10,7 @@
 | 06 | [Memory Reallocation][d06] | Python |
 | 07 | [Recursive Circus][d07] | Python |
 | 08 | [I Heard You Like Registers][d08] | Python |
+| 09 | [Stream Processing][d09] | Python |
 
 [d01]: http://adventofcode.com/2017/day/1
 [d02]: http://adventofcode.com/2017/day/2
@@ -19,5 +20,6 @@
 [d06]: http://adventofcode.com/2017/day/6
 [d07]: http://adventofcode.com/2017/day/7
 [d08]: http://adventofcode.com/2017/day/8
+[d09]: http://adventofcode.com/2017/day/9
 
 [oeis]: https://oeis.org
