@@ -13,6 +13,7 @@
 | 09 | [Stream Processing][d09] | Python |
 | 10 | [Knot Hash][d10] | Python |
 | 11 | [Hex Ed][d11] | Python |
+| 12 | [Digital Plumber][d12] | Python |
 
 [d01]: http://adventofcode.com/2017/day/1
 [d02]: http://adventofcode.com/2017/day/2
@@ -25,5 +26,6 @@
 [d09]: http://adventofcode.com/2017/day/9
 [d10]: http://adventofcode.com/2017/day/10
 [d11]: http://adventofcode.com/2017/day/11
+[d12]: http://adventofcode.com/2017/day/12
 
 [oeis]: https://oeis.org
