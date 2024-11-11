@@ -1,5 +1,8 @@
 # Advent of Code 2017 solutions
 
+> [!NOTE]
+> All solutions moved to https://github.com/Magiczne/AdventOfCode
+
 | Day | Challenge name | Language & Helpers |
 | --- | -------------- | -------- |
 | 01 | [Inverse Captcha][d01] | Python |
